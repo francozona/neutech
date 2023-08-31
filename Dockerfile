@@ -1,27 +1,27 @@
-FROM ruby:3.1-slim-bullseye as jekyll
+# Use the official Ruby image as the base image
+FROM ruby:3.1-slim-bullseye
 
+# Install required packages
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-# used in the jekyll-server image, which is FROM this image
-COPY docker-entrypoint.sh /usr/local/bin/
-
+# Install Jekyll
 RUN gem update --system && gem install jekyll && gem cleanup
 
-EXPOSE 4000
-
+# Set the working directory inside the container
 WORKDIR /site
 
-ENTRYPOINT [ "jekyll" ]
+# Copy the entrypoint script to the appropriate location
+COPY docker-entrypoint.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh
 
-CMD [ "--help" ]
+# Expose port 4000
+EXPOSE 4000
 
-# build from the image we just built with different metadata
-FROM jekyll as jekyll-serve
+# Set the default command to execute when the container starts
+ENTRYPOINT ["docker-entrypoint.sh"]
 
-# on every container start, check if Gemfile exists and warn if it's missing
-ENTRYPOINT [ "docker-entrypoint.sh" ]
-
-CMD [ "bundle", "exec", "jekyll", "serve", "--force_polling", "-H", "0.0.0.0", "-P", "4000" ]
+# Default command arguments
+CMD ["bundle", "exec", "jekyll", "serve", "--force_polling", "-H", "0.0.0.0", "-P", "4000"]
