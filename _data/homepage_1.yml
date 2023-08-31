@@ -1,0 +1,69 @@
+######################### Hero Area ##############################
+hero_area:
+  background_image : "/assets/images/bg/banner-2.png"
+  subtitle: ""
+  title : "Unlock your full <br>IT potential with <br>Neu Technology"
+  content : "Our comprehensive IT consulting and training services will equip your team with the skills and expertise they need to excel in cloud DevOps, security solutions, software development, recruitment, and more. Elevate your IT capabilities today."
+  image : "/assets/images/neubanner.png"
+  button:
+    enable : true
+    label : "Contact us"
+    link : "/contact"
+
+################## About ###########################
+about:
+  enable : true
+  subtitle : "About Us"
+  title : "Your Gateway to <br>Cutting-Edge IT Solutions"
+  video_thumb : "/assets/images/about/about.jpg"
+  content : "At Neu Technology, we are dedicated to providing top-notch IT solutions that lift your company to new heights. We are aware of the potential and problems that technology brings. Our team of highly qualified professionals offers cloud infrastructure services, software development, DevOps solutions, training, and IT consultancy to keep your company on the cutting edge of technology."
+  button:
+    enable : true
+    label : "Purchase now"
+    link : "/pricing"
+
+########################### Service ##############################
+services:
+- title : "IT Consultation"
+  icon : "ti-ruler-pencil"
+  content : "New clients receive an obligation consultation."
+    
+
+- title : "Software Development"
+  icon : "ti-announcement"
+  content : "All members of our team are certified Software Engineers."
+
+- title : "Trainings"
+  icon : "ti-palette"
+  content : "With the help of our extensive training programs, you may invest in the abilities and expertise of your employees."
+
+- title : "Cloud Infrastructure"
+  icon : "ti-palette"
+  content : "Utilize our cloud infrastructure services to benefit from the flexibility and power of cloud computing."
+
+
+- title : "DevOps"
+  icon : "ti-palette"
+  content : "Our DevOps solutions can help you streamline your development and operational processes. "
+
+
+######################## Fun facts ########################
+funfacts:
+  enable : true
+  bg_image : "/assets/images/bg/cta-bg.png"
+  item:
+  - name : "work completed"
+    icon : "ti-briefcase"
+    value : "370"
+    
+  - name : "new projects"
+    icon : "ti-paint-bucket"
+    value : "450"
+    
+  - name : "Happy customers"
+    icon : "ti-heart"
+    value : "5000"
+    
+  - name : "awards win"
+    icon : "ti-cup"
+    value : "37"
