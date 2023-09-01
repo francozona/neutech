@@ -4,7 +4,7 @@
       "title"    : "Premium Jekyll And Ghost Themes",
       "category" : "",
       "tags"     : "development",
-      "url"      : "/{{ site.baseurl }}/premium-jekyll-and-ghost-theme",
+      "url"      : "/premium-jekyll-and-ghost-theme",
       "date"     : "2020-01-02 15:37:13 +0100"
     } ,
   
@@ -12,7 +12,7 @@
       "title"    : "Free WordPress And HTML themes",
       "category" : "",
       "tags"     : "development, Design",
-      "url"      : "/{{ site.baseurl }}/free-wordpress-and-html-themes",
+      "url"      : "/free-wordpress-and-html-themes",
       "date"     : "2020-01-01 15:37:13 +0100"
     } ,
   
@@ -20,7 +20,7 @@
       "title"    : "5 ingredient cilantro vinaigrette",
       "category" : "",
       "tags"     : "design",
-      "url"      : "/{{ site.baseurl }}/ingredient-cilantro-vinaigrette",
+      "url"      : "/ingredient-cilantro-vinaigrette",
       "date"     : "2019-12-14 15:37:13 +0100"
     } ,
   
@@ -28,7 +28,7 @@
       "title"    : "A Simple Way to Feel Like Home When You Travel",
       "category" : "",
       "tags"     : "design",
-      "url"      : "/{{ site.baseurl }}/simple-way-to-feel-like-home-when-you-travel",
+      "url"      : "/simple-way-to-feel-like-home-when-you-travel",
       "date"     : "2019-12-13 15:37:13 +0100"
     } ,
   
@@ -36,7 +36,7 @@
       "title"    : "Portugal’s Sunset summer vission",
       "category" : "",
       "tags"     : "design",
-      "url"      : "/{{ site.baseurl }}/portugal-sunset-summer-vission",
+      "url"      : "/portugal-sunset-summer-vission",
       "date"     : "2019-12-12 15:37:13 +0100"
     } ,
   
@@ -44,7 +44,7 @@
       "title"    : "The best soft Tropical Getaway",
       "category" : "",
       "tags"     : "design",
-      "url"      : "/{{ site.baseurl }}/the-best-soft-tropical-getaway",
+      "url"      : "/the-best-soft-tropical-getaway",
       "date"     : "2019-12-11 15:37:13 +0100"
     } ,
   
@@ -52,7 +52,7 @@
       "title"    : "How to Make list for travelling alone",
       "category" : "",
       "tags"     : "warning",
-      "url"      : "/{{ site.baseurl }}/how-to-make-list-for-travelling-alone",
+      "url"      : "/how-to-make-list-for-travelling-alone",
       "date"     : "2019-12-10 15:37:13 +0100"
     } ,
   
@@ -60,7 +60,7 @@
       "title"    : "The best place to explore to enjoy ",
       "category" : "",
       "tags"     : "warning",
-      "url"      : "/{{ site.baseurl }}/the-best-place-to-explore-to-enjoy",
+      "url"      : "/the-best-place-to-explore-to-enjoy",
       "date"     : "2019-12-09 15:37:13 +0100"
     } ,
   
@@ -68,7 +68,7 @@
       "title"    : "Memoriable Paris Girls Trip",
       "category" : "",
       "tags"     : "warning",
-      "url"      : "/{{ site.baseurl }}/memoriable-paris-girls-trip",
+      "url"      : "/memoriable-paris-girls-trip",
       "date"     : "2019-12-08 15:37:13 +0100"
     } ,
   
@@ -76,7 +76,7 @@
       "title"    : "How to Plan your Trip the Right Way",
       "category" : "",
       "tags"     : "warning",
-      "url"      : "/{{ site.baseurl }}/how-to-plan-your-trip-the-right-way",
+      "url"      : "/how-to-plan-your-trip-the-right-way",
       "date"     : "2019-12-07 15:37:13 +0100"
     } ,
   
@@ -84,7 +84,7 @@
       "title"    : "Powerful Ways to Add Vibrant Colour to Your Life",
       "category" : "",
       "tags"     : "technology",
-      "url"      : "/{{ site.baseurl }}/powerful-ways-to-add-vibrant-colour-to-your-life",
+      "url"      : "/powerful-ways-to-add-vibrant-colour-to-your-life",
       "date"     : "2019-12-06 15:37:13 +0100"
     } ,
   
@@ -92,7 +92,7 @@
       "title"    : "The best to-do list to help boost your productivity",
       "category" : "",
       "tags"     : "technology, lifestyle",
-      "url"      : "/{{ site.baseurl }}/the-best-to-do-list-to-help-boost-your-productivity",
+      "url"      : "/the-best-to-do-list-to-help-boost-your-productivity",
       "date"     : "2019-12-05 15:37:13 +0100"
     } ,
   
@@ -100,7 +100,7 @@
       "title"    : "Easily choose from thousan",
       "category" : "",
       "tags"     : "",
-      "url"      : "/{{ site.baseurl }}/easily-choose-from-thousan",
+      "url"      : "/easily-choose-from-thousan",
       "date"     : "2019-12-04 07:37:13 +0100"
     } ,
   
@@ -108,7 +108,7 @@
       "title"    : "Tips for Taking a Long-term Trip",
       "category" : "",
       "tags"     : "",
-      "url"      : "/{{ site.baseurl }}/tips-for-taking-a-long-term-trip",
+      "url"      : "/tips-for-taking-a-long-term-trip",
       "date"     : "2019-12-03 07:37:13 +0100"
     } ,
   
@@ -116,7 +116,7 @@
       "title"    : "Trip to California",
       "category" : "",
       "tags"     : "travel",
-      "url"      : "/{{ site.baseurl }}/trip-to-california",
+      "url"      : "/trip-to-california",
       "date"     : "2019-12-02 15:37:13 +0100"
     } ,
   
@@ -124,7 +124,7 @@
       "title"    : "Our Favorite Weekend Getaways",
       "category" : "",
       "tags"     : "technology, lifestyle",
-      "url"      : "/{{ site.baseurl }}/our-favorite-weekend-getaways",
+      "url"      : "/our-favorite-weekend-getaways",
       "date"     : "2019-12-01 15:37:13 +0100"
     } 
   

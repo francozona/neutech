@@ -3,20 +3,20 @@ main:
   - name: Home
     url: /
   - name: About
-    url: /about
+    url: about
   - name: Services
-    url: /services
+    url: services
   - name: Contact
-    url: /contact
+    url: contact
 
 ########## footer menu ###############
 footer:
   - name: Services
-    url: /services
+    url: services
   - name: About
-    url: /about
+    url: about
   - name: Contact
-    url: /contact
+    url: contact
 
 ############## Bottom menu ###############
 bottom:

@@ -6,8 +6,8 @@ phone: "+2348039546928"
 address: ""
 description: >- # this means to ignore newlines
   Comprehensive IT consulting and training services will equip your team with the skills and expertise they need to excel in cloud DevOps, security solutions, software development, recruitment, and more.
-logo: "{{ site.baseurl }}/assets/images/neutechno.png"
-logo_icon: "{{ site.baseurl }}/assets/images/neutechno.png"
+logo: "assets/images/neutechno.png"
+logo_icon: "assets/images/neutechno.png"
 desktop_width: "120px"
 mobile_width: "32px"
 # contact form action
@@ -16,17 +16,17 @@ mailchimp_list: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c13
 footer_content: "At Neu Technology, we are dedicated to providing top-notch IT solutions that lift your company to new heights. We are aware of the potential and problems that technology brings. "
 copyright: "&copy; Copyright Neu Technology, All Right Reserved."
 # page header default image
-cover_image: "{{ site.baseurl }}/assets/images/bg/aboutneu.jpg"
+cover_image: "assets/images/bg/aboutneu.jpg"
 
 
 ############### Call to Action ###############
 cta:
   enable: true
   title: "Neo Technology gives the smart solution for your business"
-  bg_image: "{{ site.baseurl }}/assets/images/bg/cta-bg-2.png"
+  bg_image: "assets/images/bg/cta-bg-2.png"
   button:
     label: "get a quote"
-    link: "{{ site.baseurl }}/contact"
+    link: "contact"
 
 ################## Social site ###############
 social:
@@ -44,7 +44,7 @@ social:
 
 
 # Build settings
-permalink: "{{ site.baseurl }}/:title"
+permalink: "/:title"
 markdown: kramdown
 plugins:
   - jekyll-feed
