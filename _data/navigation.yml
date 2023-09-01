@@ -3,20 +3,20 @@ main:
   - name: Home
     url: /
   - name: About
-    url: /about
+    url: {{ site.baseurl }}/about
   - name: Services
-    url: /services
+    url: {{ site.baseurl }}/services
   - name: Contact
-    url: /contact
+    url: {{ site.baseurl }}/contact
 
 ########## footer menu ###############
 footer:
   - name: Services
-    url: /services
+    url: {{ site.baseurl }}/services
   - name: About
-    url: /about
+    url: {{ site.baseurl }}/about
   - name: Contact
-    url: /contact
+    url: {{ site.baseurl }}/contact
 
 ############## Bottom menu ###############
 bottom:

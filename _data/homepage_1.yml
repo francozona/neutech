@@ -1,26 +1,26 @@
 ######################### Hero Area ##############################
 hero_area:
-  background_image : "/assets/images/bg/banner-2.png"
+  background_image : "{{ site.baseurl }}/assets/images/bg/banner-2.png"
   subtitle: ""
   title : "Unlock your full <br>IT potential with <br>Neu Technology"
   content : "Our comprehensive IT consulting and training services will equip your team with the skills and expertise they need to excel in cloud DevOps, security solutions, software development, recruitment, and more. Elevate your IT capabilities today."
-  image : "/assets/images/neubanner.png"
+  image : "{{ site.baseurl }}/assets/images/neubanner.png"
   button:
     enable : true
     label : "Contact us"
-    link : "/contact"
+    link : "{{ site.baseurl }}/contact"
 
 ################## About ###########################
 about:
   enable : true
   subtitle : "About Us"
   title : "Your Gateway to <br>Cutting-Edge IT Solutions"
-  video_thumb : "/assets/images/about/about.jpg"
+  video_thumb : "{{ site.baseurl }}/assets/images/about/about.jpg"
   content : "At Neu Technology, we are dedicated to providing top-notch IT solutions that lift your company to new heights. We are aware of the potential and problems that technology brings. Our team of highly qualified professionals offers cloud infrastructure services, software development, DevOps solutions, training, and IT consultancy to keep your company on the cutting edge of technology."
   button:
     enable : true
     label : "Purchase now"
-    link : "/pricing"
+    link : "{{ site.baseurl }}/pricing"
 
 ########################### Service ##############################
 services:
@@ -50,7 +50,7 @@ services:
 ######################## Fun facts ########################
 funfacts:
   enable : true
-  bg_image : "/assets/images/bg/cta-bg.png"
+  bg_image : "{{ site.baseurl }}/assets/images/bg/cta-bg.png"
   item:
   - name : "work completed"
     icon : "ti-briefcase"
