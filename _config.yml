@@ -1,5 +1,5 @@
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com or  https://Dizerjk.netlify.com
+baseurl: "/neutech" # the subpath of your site, e.g. /blog
+url: "https://francozona.github.io" # the base hostname & protocol for your site, e.g. http://example.com or  https://Dizerjk.netlify.com
 title: "Neu Technology"
 email: "nonso.udechukwu@gmail.com"
 phone: "+2348039546928"
